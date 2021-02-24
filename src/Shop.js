@@ -77,7 +77,8 @@ let Shop = () => {
                     quantity: 1,
                 }
                 setCart(cart => [...cart, productToBeUpdated]);
-            }       
+            }
+        
     }
 
     let clearCart = () => {
@@ -101,7 +102,6 @@ let Shop = () => {
                     subTotal= item.price*(item.quantity - freeItemsQuantity);
                 }
                 else{
-                    console.log('Invalid promotional code. Regular price applied.');
                     subTotal = item.price*item.quantity
                 }
             }
@@ -121,8 +121,7 @@ let Shop = () => {
                             <span className='product__price'>{` $${subTotal.toFixed(2)}`}</span>
                             <button onClick={() => updateCart(item, 'remove')}>Remove</button>
                         </span>
-                    </li>
-                )
+                    </li>)
             )
         });
 
