@@ -59,7 +59,13 @@ let Shop = () => {
 
         if (productToBeUpdated) {
             action === 'add' ? productToBeUpdated.quantity++ : productToBeUpdated.quantity--;
-            setCart(cart => [...cart]);
+            if (productToBeUpdated.quantity <= 0){
+                let newCart = cart.filter(cartItem => cartItem !== productToBeUpdated);
+                setCart( cart => [...newCart]);
+            }
+            else{
+                setCart(cart => [...cart]);
+            }
         } 
         
         else {
@@ -71,9 +77,7 @@ let Shop = () => {
                     quantity: 1,
                 }
                 setCart(cart => [...cart, productToBeUpdated]);
-            }
-        
-        console.log(cart);
+            }       
     }
 
     let clearCart = () => {
