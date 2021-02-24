@@ -14,8 +14,14 @@ ul{
   list-style: none;
 }
 
+.product-list{
+  width: 100%;
+  padding: 0;
+}
+
 .product{
-  min-width: 600px;
+  max-width: calc(100vw - 1rem);
+  padding-left: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -27,7 +33,6 @@ ul{
 
 .cart__total-container{
   display: flex;
-  width: 100%;
   max-width: 500px;
   flex-direction: row;
   justify-content: space-between;
@@ -36,11 +41,10 @@ ul{
 
 @media screen and (max-width: 600px) {
   .product-list{
-    width: 100vw;
+    width: 100%;
     flex-direction: column;
   }
   .product{
-    width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
