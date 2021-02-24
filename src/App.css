@@ -33,3 +33,25 @@ ul{
   justify-content: space-between;
   align-items: center;
 }
+
+@media screen and (max-width: 600px) {
+  .product-list{
+    width: 100vw;
+    flex-direction: column;
+  }
+  .product{
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 1rem 0;
+  }
+
+  .product__price{
+    margin-left: 0;
+  }
+
+  .cart__total-container{
+    justify-content: space-around;
+  }
+}
