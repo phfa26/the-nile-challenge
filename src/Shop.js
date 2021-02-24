@@ -121,7 +121,8 @@ let Shop = () => {
                             <span className='product__price'>{` $${subTotal.toFixed(2)}`}</span>
                             <button onClick={() => updateCart(item, 'remove')}>Remove</button>
                         </span>
-                    </li>)
+                    </li>
+                )
             )
         });
 
