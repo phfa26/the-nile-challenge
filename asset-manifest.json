@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/the-nile-challenge/static/css/main.6ff99311.chunk.css",
-    "main.js": "/the-nile-challenge/static/js/main.de6e02a5.chunk.js",
-    "main.js.map": "/the-nile-challenge/static/js/main.de6e02a5.chunk.js.map",
+    "main.js": "/the-nile-challenge/static/js/main.99627e72.chunk.js",
+    "main.js.map": "/the-nile-challenge/static/js/main.99627e72.chunk.js.map",
     "runtime-main.js": "/the-nile-challenge/static/js/runtime-main.590b229e.js",
     "runtime-main.js.map": "/the-nile-challenge/static/js/runtime-main.590b229e.js.map",
-    "static/js/2.ebacfa78.chunk.js": "/the-nile-challenge/static/js/2.ebacfa78.chunk.js",
-    "static/js/2.ebacfa78.chunk.js.map": "/the-nile-challenge/static/js/2.ebacfa78.chunk.js.map",
+    "static/js/2.12ee8a27.chunk.js": "/the-nile-challenge/static/js/2.12ee8a27.chunk.js",
+    "static/js/2.12ee8a27.chunk.js.map": "/the-nile-challenge/static/js/2.12ee8a27.chunk.js.map",
     "static/js/3.e6d08aa2.chunk.js": "/the-nile-challenge/static/js/3.e6d08aa2.chunk.js",
     "static/js/3.e6d08aa2.chunk.js.map": "/the-nile-challenge/static/js/3.e6d08aa2.chunk.js.map",
     "index.html": "/the-nile-challenge/index.html",
     "static/css/main.6ff99311.chunk.css.map": "/the-nile-challenge/static/css/main.6ff99311.chunk.css.map",
-    "static/js/2.ebacfa78.chunk.js.LICENSE.txt": "/the-nile-challenge/static/js/2.ebacfa78.chunk.js.LICENSE.txt"
+    "static/js/2.12ee8a27.chunk.js.LICENSE.txt": "/the-nile-challenge/static/js/2.12ee8a27.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.590b229e.js",
-    "static/js/2.ebacfa78.chunk.js",
+    "static/js/2.12ee8a27.chunk.js",
     "static/css/main.6ff99311.chunk.css",
-    "static/js/main.de6e02a5.chunk.js"
+    "static/js/main.99627e72.chunk.js"
   ]
 }
